@@ -1,5 +1,4 @@
 #Please do all parts of this lab. Answer questions in a way that demonstrates you understand.
-#Curt, lazy answers will be penalized appropriately.
 
 #==================================================
 # Problem 0
