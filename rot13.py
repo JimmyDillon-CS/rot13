@@ -15,7 +15,7 @@ def encode_table():
     print()
 
 
-print(('=' * 10) + "Problem 0" + ('=' * 10))
+print(f"{('=' * 10)} Problem 0 {('=' * 10)}")
 encode_table()
 # End Problem 0
 #==================================================
@@ -35,7 +35,7 @@ encode_table()
 # what can you tell about a letter and its rot13 equivalent?
 # print your answer as a string below
 
-print(('=' * 10) + "Problem 1" + ('=' * 10))
+print(f"{('=' * 10)} Problem 1 {('=' * 10)}")
 answer = ''
 print(answer)
 
@@ -54,13 +54,13 @@ print(answer)
 def rot13char(c):
     return c
 
-print(('=' * 10) + "Problem 2" + ('=' * 10))
-print( 'b: ' + rot13char('b') )
-print( 'q: ' + rot13char('q') )
-print( 'B: ' + rot13char('B') )
-print( 'Q: ' + rot13char('Q') )
-print( '?: ' + rot13char('?') )
-print( '$: ' + rot13char('$') )
+print(f"{('=' * 10)} Problem 2 {('=' * 10)}")
+print( f'b: {rot13char('b')}')
+print( f'q: {rot13char('q')}')
+print( f'B: {rot13char('B')}')
+print( f'Q: {rot13char('Q')}')
+print( f'?: {rot13char('?')}')
+print( f'$: {rot13char('$')}')
 
 # End Problem 2
 #==================================================
@@ -78,7 +78,7 @@ print( '$: ' + rot13char('$') )
 def rot13_table():
     print()
 
-print(('=' * 10) + "Problem 3" + ('=' * 10))
+print(f"{('=' * 10)} Problem 3 {('=' * 10)}")
 rot13_table()
 
 # End Problem 3
@@ -94,10 +94,10 @@ rot13_table()
 def rot13(s):
     return s
 
-print(('=' * 10) + "Problem 4" + ('=' * 10))
+print(f"{('=' * 10)} Problem 4 {('=' * 10)}")
 tester = 'skywalker'
 rotted = rot13(tester)
-print( tester + ' -> ' + rotted )
+print( f"{tester} -> {rotted}" )
 
 # What happens when you call rot13 on a string that was created by rot13?
 # print out your answer as a string
@@ -116,7 +116,7 @@ def rot13char_anycase(c):
     return c
 
 # Test your function here
-print(('=' * 10) + "Problem 5" + ('=' * 10))
+print(f"{('=' * 10)} Problem 5 {('=' * 10)}")
 
 
 
@@ -138,7 +138,7 @@ def rot13_full(s):
     return s
 
 
-print(('=' * 10) + "Problem 6" + ('=' * 10))
+print(f"{('=' * 10)} Problem 6 {('=' * 10)}")
 print(rot13_full("Nerf Ares, gel sync pyrex. Terra hey!"))
 # Test your function here
 
