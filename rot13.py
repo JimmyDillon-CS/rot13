@@ -55,12 +55,12 @@ def rot13char(c):
     return c
 
 print(f"{('=' * 10)} Problem 2 {('=' * 10)}")
-print( f'b: {rot13char('b')}')
-print( f'q: {rot13char('q')}')
-print( f'B: {rot13char('B')}')
-print( f'Q: {rot13char('Q')}')
-print( f'?: {rot13char('?')}')
-print( f'$: {rot13char('$')}')
+print( f"b: {rot13char('b')}")
+print( f"q: {rot13char('q')}")
+print( f"B: {rot13char('B')}")
+print( f"Q: {rot13char('Q')}")
+print( f"?: {rot13char('?')}")
+print( f"$: {rot13char('$')}")
 
 # End Problem 2
 #==================================================
